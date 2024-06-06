@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 2 Parte 2</title>
+    <link rel="stylesheet" href="assets/scss/prueba2.css">
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+            <form class="my-5">
+                <label for="datoInfo" class="mb-2 primary">TÍTULO</label>
+                <input id="datoInfo" class="form-control">
+              </form>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+            <form class="my-5">
+                <label for="datoInfo" class="mb-2">DESCRIPCIÓN</label>
+                <input id="datoInfo" class="form-control">
+              </form>
+              <div class="col-md-4 mt-4 pt-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-warning" id="subirInfo">ACTUALIZAR</button>
+
+              </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="container-fluid my-5">
+        <!--ALERT-->
+        <div class="row mb-4 justify-content-center">
+            <div class="col-md-6 me-4 caja rosado d-flex justify-content-center align-items-center" id="liveAlertPlaceholder">
+                <button type="button" class="btn btn-danger" id="liveAlertBtn">ALERT</button>
+            </div>
+            <!-- FIN ALERT-->
+
+            <!--POPOVER-->
+            <div class="col-md-6 caja amarillo d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-danger" id="myPopover" data-bs-toggle="popover"  data-bs-trigger="hover focus" data-bs-title="¿Sabías qué?" data-bs-html="true"  data-bs-content="<a href='https://www.pinterest.es/pggr/gatos/'>¿Sabías que ver gatitos pueden sanar tu alma?. Haz clíck aquí para ver gatitos</a>">POPOVER</button>
+            </div>
+             <!-- FIN POPOVER-->
+        </div>
+    
+        <div class="row justify-content-center">
+            <!-- TOAST-->
+            <div class="col-md-6 me-4 caja azul d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-danger" id="liveToastBtn">TOAST</button>
+
+                <div class="toast-container d-flex justify-content-center align-items-center w-100">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                    <img src="./assets/img/gatotoast.png" width="200px" height="100px" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Meeowwwww. Que se ha creido este...</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" data-bs-delay='{"show":0,"hide":550}'></button>
+                    </div>
+                    <div class="toast-body">
+                    Gatito tierno mirando atónito uwu.
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--FIN TOAST-->
+
+
+            <!--OFFCANVAS-->
+            <div class="col-md-6 caja morado d-flex justify-content-center align-items-center">
+                <button class="btn btn-danger" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" scroll aria-controls="offcanvasRight">OFFCANVAS</button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 onclick="this.innerHTML = 'Bienvenido al offcanvas ODA A LOS MICHIS'" class="offcanvas-title" id="offcanvasRightLabel">PÍNCHAME UWU</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <img class="mb-2" src="./assets/img/offcanvas.jpg" width="365px" alt="">
+                    <img class="" src="./assets/img/offcanvas2.jpg" width="365px" alt="">
+                    <hr>
+                    <p>Oh pequeño
+                        emperador sin orbe,
+                        conquistador sin patria,
+                        mínimo tigre de salón, nupcial
+                        sultán del cielo
+                        de las tejas eróticas,
+                        el viento del amor
+                        en la intemperie
+                        reclamas
+                        cuando pasas
+                        y posas
+                        cuatro pies delicados
+                        en el suelo,
+                        oliendo,
+                        desconfiando
+                        de todo lo terrestre,
+                        porque todo
+                        es inmundo
+                        para el inmaculado pie del gato.</p>
+                </div>
+                </div>
+            </div>
+            <!--FIN SOFFCANVAS-->
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    
+    
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
+ <script src="assets/js/script.js"></script>   
+</body>
+</html>

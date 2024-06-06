@@ -1,0 +1,45 @@
+//LLamada de Framework//
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+//Importando estilos//
+@import 'variables';
+
+
+body{
+    background-color: $color-fondo;
+    
+}
+
+a{
+    color:$color-rosado ;
+}
+
+label{
+    color: $color-input;
+}
+
+
+.caja{
+    min-width: $ancho-caja-minimo;
+    max-width: $ancho-caja-maximo;
+    border: $borde-caja;
+    height: $altura-caja;
+    padding: $padding-caja;
+}
+
+
+.rosado{
+    background-color: $color-rosado;
+}
+.amarillo{
+    background-color: $color-amarillo;
+}
+.verde{
+    background-color: $color-verde;
+}
+.azul{
+    background-color: $color-azul;
+}
+.morado{
+    background-color: $color-morado;
+}
