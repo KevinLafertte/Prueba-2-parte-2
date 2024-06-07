@@ -1,2 +1,2 @@
-# Prueba-2-parte-2
+# ¡IMPORTANTE LEER!
 Prueba 2, segunda parte
