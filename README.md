@@ -18,7 +18,8 @@
 
 
 **ACTUALIZACIÓN PARTE 1 DE PRUEBA**
--Se agregó modificación de **datas a offcanvas**:
+
+- Se agregó modificación de **datas a offcanvas**:
 
   - **DataModificadoUno**: Agrega contenido en id tituloModificado en HTML.
   - **DataModificadoDos**: Agrega contenido a clase offcanvas-body en HTML.
