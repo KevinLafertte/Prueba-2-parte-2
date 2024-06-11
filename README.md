@@ -8,8 +8,9 @@
 
   - **inputTitulo**: Almacena la información puesta en el input.
   - **inputDescripcion**: Almacena la información puesta en el input.
-  - 
+    
   A su vez, las nuevas variables para almacenar esta información en js y poder realizar los cambios son:
+  
   -**nuevoTitulo**: Guarda información de **inputTitulo.**
   -**nuevaDescripcion**: Guarda información de **inputDescripcion.**
    
