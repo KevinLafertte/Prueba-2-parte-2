@@ -1,6 +1,6 @@
 # ¡IMPORTANTE LEER!
 
-#Cambios que se realizaron a los distintos componentes de bootstrap:#
+***Cambios que se realizaron a los distintos componentes de bootstrap:***
 
 -Todos los cambios mencionados en la primera parte.
 -Modificaciones de componentes mediante dos nuevos input que reemplazan el contenido original al precionar el botón actualizar. Los input son:
