@@ -1,4 +1,4 @@
-# ¡IMPORTANTE LEER!
+# PRUEBA 2, SEGUNDA PARTE.
 
 ***Cambios que se realizaron a los distintos componentes de bootstrap:***
 
