@@ -14,7 +14,6 @@
   -**nuevaDescripcion**: Guarda información de **inputDescripcion.**
    
 
-
 -Se agregó modificación de datas a offcanvas:
   -Dos nuevos datas:
      - **DataModificadoUno**: Agrega contenido en id tituloModificado en HTML.
