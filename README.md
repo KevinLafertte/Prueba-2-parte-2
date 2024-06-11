@@ -15,9 +15,10 @@
   - **nuevaDescripcion**: Guarda información de **inputDescripcion.**
    
 
--Se agregó modificación de datas a offcanvas:
+-Se agregó modificación de **datas a offcanvas**:
   -Dos nuevos datas:
+  
      - **DataModificadoUno**: Agrega contenido en id tituloModificado en HTML.
-     -**DataModificadoDos**: Agrega contenido a clase offcanvas-body en HTML.
+     - **DataModificadoDos**: Agrega contenido a clase offcanvas-body en HTML.
 
 ***Prueba 2, segunda parte.*****
