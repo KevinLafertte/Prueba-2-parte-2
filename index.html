@@ -13,18 +13,18 @@
     <div class="row justify-content-center">
         <div class="col-md-4 d-flex justify-content-center align-items-center">
             <form class="my-5">
-                <label for="datoInfo" class="mb-2 primary">TÍTULO</label>
-                <input id="datoInfo" class="form-control">
+                <label for="inputTitulo" class="mb-2 primary">TÍTULO</label>
+                <input id="inputTitulo" class="form-control">
               </form>
         </div>
 
         <div class="col-md-4 d-flex justify-content-center align-items-center">
             <form class="my-5">
-                <label for="datoInfo" class="mb-2">DESCRIPCIÓN</label>
-                <input id="datoInfo" class="form-control">
+                <label for="inputDescripcion" class="mb-2">DESCRIPCIÓN</label>
+                <input id="inputDescripcion" class="form-control">
               </form>
               <div class="col-md-4 mt-4 pt-2 d-flex justify-content-center">
-                <button type="button" class="btn btn-warning" id="subirInfo">ACTUALIZAR</button>
+                <button type="button" class="btn btn-warning" id="actualizarData">ACTUALIZAR</button>
 
               </div>
         </div>
@@ -37,7 +37,7 @@
         <!--ALERT-->
         <div class="row mb-4 justify-content-center">
             <div class="col-md-6 me-4 caja rosado d-flex justify-content-center align-items-center" id="liveAlertPlaceholder">
-                <button type="button" class="btn btn-danger" id="liveAlertBtn">ALERT</button>
+                <button type="button" class="btn btn-danger" id="liveAlertBtn">ALERT. (No apretar todavía)</button>
             </div>
             <!-- FIN ALERT-->
 
@@ -71,11 +71,11 @@
 
             <!--OFFCANVAS-->
             <div class="col-md-6 caja morado d-flex justify-content-center align-items-center">
-                <button class="btn btn-danger" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" scroll aria-controls="offcanvasRight">OFFCANVAS</button>
+                <button class="btn btn-danger" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" data-titulo-modificado="soy un data titulo modificado" data-contenido-modificado="soy un data contenido modificado" scroll aria-controls="offcanvasRight">OFFCANVAS</button>
 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
-                    <h5 onclick="this.innerHTML = 'Bienvenido al offcanvas ODA A LOS MICHIS'" class="offcanvas-title" id="offcanvasRightLabel">PÍNCHAME UWU</h5>
+                    <h5 onclick="this.innerHTML = 'Bienvenido al offcanvas ODA A LOS MICHIS'" id="tituloModificado">PÍNCHAME UWU</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -106,34 +106,11 @@
             </div>
             <!--FIN SOFFCANVAS-->
         </div>
-
-
-
-
-
-
     </div>
 
 
 
     
-    
-   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
  <script src="assets/js/script.js"></script>   
 </body>
