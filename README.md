@@ -11,8 +11,8 @@
     
   A su vez, las nuevas variables para almacenar esta información en js y poder realizar los cambios son:
   
-  -**nuevoTitulo**: Guarda información de **inputTitulo.**
-  -**nuevaDescripcion**: Guarda información de **inputDescripcion.**
+  - **nuevoTitulo**: Guarda información de **inputTitulo.**
+  - **nuevaDescripcion**: Guarda información de **inputDescripcion.**
    
 
 -Se agregó modificación de datas a offcanvas:
