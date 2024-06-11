@@ -16,7 +16,7 @@
    
 
 -Se agregó modificación de **datas a offcanvas**:
-  -Dos nuevos datas:
+
      - **DataModificadoUno**: Agrega contenido en id tituloModificado en HTML.
      - **DataModificadoDos**: Agrega contenido a clase offcanvas-body en HTML.
 
