@@ -13,7 +13,9 @@
   
   - **nuevoTitulo**: Guarda información de **inputTitulo.**
   - **nuevaDescripcion**: Guarda información de **inputDescripcion.**
-   
+
+
+**Prueba 2, parte 2**
 
 
 
@@ -24,4 +26,4 @@
   - **DataModificadoUno**: Agrega contenido en id tituloModificado en HTML.
   - **DataModificadoDos**: Agrega contenido a clase offcanvas-body en HTML.
 
-***Prueba 2, segunda parte.*****
+
